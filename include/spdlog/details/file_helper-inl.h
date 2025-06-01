@@ -11,8 +11,10 @@
 #include <spdlog/details/os.h>
 
 #include <cerrno>
+#include <chrono>
 #include <cstdio>
 #include <string>
+#include <thread>
 #include <tuple>
 
 namespace spdlog {
